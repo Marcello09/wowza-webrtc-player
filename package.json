@@ -1,8 +1,8 @@
 {
-  "name": "wowza-webrtc-player",
+  "name": "@marcello09/wowza-webrtc-player",
   "version": "1.0.5",
   "description": "A generic player to handle Wowza WebRTC api",
-  "author": "Vincent Thibault <vthibault.mobile@gmail.com>",
+  "author": "Vincent Thibault <vthibault.mobile@gmail.com>, Marcello Gonçalves Moreira <marcellogmoreira@gmail.com>",
   "license": "MIT",
   "main": "./dist/cjs/wowza-webrtc-player.js",
   "module": "./dist/esm/wowza-webrtc-player.js",
@@ -16,9 +16,9 @@
     "typings/"
   ],
   "bugs": {
-    "url": "https://github.com/koala-interactive/wowza-webrtc-player/issues"
+    "url": "https://github.com/Marcello09/wowza-webrtc-player/issues"
   },
-  "repository": "github:koala-interactive/wowza-webrtc-player",
+  "repository": "github:Marcello09/wowza-webrtc-player",
   "scripts": {
     "lint": "tsc --noEmit && eslint . --ext .ts",
     "build": "del dist && npm run update-license && rollup -c && npm run update-filesize",
