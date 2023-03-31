@@ -1,3 +1,5 @@
+##Fixed error: Missing on , emit methods on PeerConnection 
+
 # Wowza WebRTC Player
 
 Easy to use **WebRTC** Player library to connect to **Wowza Media Server**.
