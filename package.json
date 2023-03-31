@@ -1,8 +1,11 @@
 {
   "name": "@marcello09/wowza-webrtc-player",
-  "version": "1.0.5",
+  "version": "1.0.5-hotfix",
   "description": "A generic player to handle Wowza WebRTC api",
-  "author": "Vincent Thibault <vthibault.mobile@gmail.com>, Marcello Gonçalves Moreira <marcellogmoreira@gmail.com>",
+  "author": "Vincent Thibault <vthibault.mobile@gmail.com>",
+  "contributors": [
+    "Marcello Gonçalves Moreira <marcellogmoreira@gmail.com>"
+  ],
   "license": "MIT",
   "main": "./dist/cjs/wowza-webrtc-player.js",
   "module": "./dist/esm/wowza-webrtc-player.js",
