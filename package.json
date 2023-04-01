@@ -1,6 +1,6 @@
 {
   "name": "@marcello09/wowza-webrtc-player",
-  "version": "1.0.6",
+  "version": "1.0.6-alpha4",
   "description": "A generic player to handle Wowza WebRTC api",
   "author": "Vincent Thibault <vthibault.mobile@gmail.com>",
   "contributors": [

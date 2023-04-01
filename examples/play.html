@@ -30,7 +30,7 @@
   </body>
   <script src="../dist/umd/wowza-webrtc-player.js"></script>
   <script>
-    const { WowzaWebRTCPlayer } = window['wowza-webrtc-player'];
+    const { WowzaWebRTCPlayer } = window['@marcello09/wowza-webrtc-player'];
     const player = new WowzaWebRTCPlayer(document.querySelector('video'));
 
     player.on('connectionstate', state => console.log('connectionstate', state));

@@ -97,12 +97,4 @@ export class PeerConnection extends EventEmitter {
       this.emit('addstream', stream);
     });
   }
-  
-  on(event: string | symbol, listener: (...args: any[]) => void): this {
-    return super.on(event, listener);
-  }
-
-  emit(event: string | symbol, ...args: any[]): boolean {
-    return super.emit(event, args);
-  }
 }
